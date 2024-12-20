@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WleeSend - Send LEC Credit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="Wleesend.png" alt="WleeSend Logo" class="logo" />
+        <nav class="nav">
+          <a href="account.html">My Account</a>
+          <a href="logout.html" class="btn">Logout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="lec-credit" class="form-section">
+        <div class="container">
+          <h2>Send LEC Credit</h2>
+          <form>
+            <input
+              type="text"
+              placeholder="Enter Receiver’s LEC Meter Number"
+              required
+            />
+            <select required>
+              <option value="">Select Credit Amount</option>
+              <option value="10">$10</option>
+              <option value="15">$15</option>
+              <option value="25">$25</option>
+              <option value="50">$50</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Enter Receiver’s Phone Number"
+              required
+            />
+            <button type="submit">Make Payment</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 WleeSend. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
